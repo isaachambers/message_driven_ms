@@ -35,6 +35,7 @@
     </dependency>
   </dependencies>
   <build>
+  <pluginManagement>
     <plugins>
       <plugin>
         <groupId>io.fabric8</groupId>
@@ -54,5 +55,6 @@
         </configuration>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 </project>
